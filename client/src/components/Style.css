@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* Header Styling */
+.header-menu {
+  display: flex;
+  background-color: #1e70bf;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; /* Prevents overflow */
+}
+
+/* DEV@Deakin title */
+.header-menu .header.item {
+  font-size: 1.5rem;
+}
+
+/* Subscription Form */
+.subscription-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.subscription-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 500px; /* Prevents the form from becoming too wide */
+  width: 100%; /* Ensures form takes up all available space but within max-width */
+}
+
+.subscription-form input[type="email"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px; /* You can adjust this width as needed */
+}
+
+.subscription-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscription-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Footer Styling */
+.segment {
+  background-color: #1e70bf;
+  color: #ffffff;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.segment p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.segment ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.segment ul li {
+  display: inline;
+}
+
+.segment ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.segment ul li a:hover {
+  color: #b3d4fc;
+}
